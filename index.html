@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Artex</title>
+  </head>
+  <body>
+    <div class="container content">
+      <div class="row content">
+        <div class="col-12 mt-5">
+          <h1 class="mb-4 main-heading">Locked Staking</h1>
+          <div class="row card-cotainer p-4">
+            <div class="col-12">
+              <div class="row">
+                <img width="30px" src="./images/artex_logo.png" />
+                <h5 class="pl-3">Artex</h5>
+              </div>
+            </div>
+            <div class="col-12 mt-2 p-0">
+              <strong>Duration</strong>
+              <div class="row p-3">
+                <button type="button" class="days-btn active-btn">
+                  60 Days
+                </button>
+
+                <button type="button" class="days-btn">90 Days</button>
+
+                <button type="button" class="days-btn">120 Days</button>
+
+                <button type="button" class="days-btn">345 Days</button>
+              </div>
+            </div>
+            <div class="col-12 mt-2 p-0">
+              <div class="row ml-2">
+                <strong>Lock Amount</strong>
+                <p style="padding-left: 140px; color: black">
+                  Available Amount 311,000.123 ARTEX
+                </p>
+              </div>
+
+              <div class="amount-container p-1">
+                <div class="row px-4 py-2">
+                  <strong style="color: #b1b5c4; font-size: 12px"
+                    >Please Enter The Amount</strong
+                  >
+                  <strong style="padding-left: 100px">ARTEX</strong>
+                  <button type="button" class="amount-trigger-btn">
+                    Max amount
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 mt-2 p-0">
+              <strong>Summary</strong>
+              <div class="summary-container p-3 mt-1">
+                <div class="row px-4 py-2">
+                  <p>Stake Date</p>
+                  <p style="padding-left: 270px">24 Feb 2022 12:34</p>
+                </div>
+                <div class="row px-4 py-2">
+                  <p>Redemption Date</p>
+                  <p style="padding-left: 220px">24 April 2022 00:00</p>
+                </div>
+                <div class="row px-4 py-2">
+                  <p>Interest</p>
+                  <strong style="padding-left: 270px"
+                    >15% of tokens on top</strong
+                  >
+                </div>
+                <div class="row px-4 py-2">
+                  <strong>Total Earn</strong>
+                  <strong style="color: #27ae60; padding-left: 270px"
+                    >10,000 ARTEX</strong
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 alert alert-content mt-4" role="alert">
+              *If you cancel staking, you will get
+              <strong>charged with 25% cancellation</strong> fees on their
+              initial staking amount of tokens.
+            </div>
+
+            <div class="col-12">
+              <button
+                type="button"
+                class="trigger-btn px-4 py-3"
+                data-toggle="modal"
+                data-target="#exampleModalCenter"
+              >
+                Aprroved Staking
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModalCenter"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content rounded-0">
+          <div class="modal-body p-4 px-5">
+            <div class="main-content text-center">
+              <a
+                href="#"
+                class="close-btn"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true"
+                  ><span class="icon-close2"></span
+                ></span>
+              </a>
+
+              <form action="#">
+                <div class="col-12 alert alert-content-modal mt-4" role="alert">
+                  *If you cancel staking, you will get
+                  <strong>charged with 25% cancellation</strong> fees on their
+                  initial staking amount of tokens.
+                </div>
+
+                <div class="row" style="margin-left: 80px">
+                  <button
+                    type="button"
+                    class="days-btn active-btn"
+                    aria-hidden="true"
+                    data-dismiss="modal"
+                  >
+                    Cancel
+                  </button>
+                  <button type="button" class="days-btn">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

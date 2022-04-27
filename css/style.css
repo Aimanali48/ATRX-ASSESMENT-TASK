@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,700;0,800;1,600&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  color: #b3b3b3;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+a,
+a:hover {
+  text-decoration: none !important;
+}
+
+.content {
+  height: 100vh;
+}
+
+.main-heading {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.card-cotainer {
+  margin: 20px;
+  background-color: #f4f5f6;
+  width: 600px;
+  border: 2px solid #f4f5f6;
+  border-radius: 15px;
+  position: relative;
+  left: 233px;
+}
+
+.modal {
+  border-radius: 7px;
+  overflow: hidden;
+  background-color: transparent;
+}
+.modal .logo a img {
+  width: 30px;
+}
+.modal .modal-content {
+  background-color: transparent;
+  border: none;
+  border-radius: 7px;
+}
+.modal .modal-content .modal-body {
+  border-radius: 7px;
+  overflow: hidden;
+  background-color: #f4f5f6;
+  padding-left: 0px;
+  padding-right: 0px;
+  -webkit-box-shadow: 0 10px 50px -10px rgba(0, 0, 0, 0.9);
+  box-shadow: 0 10px 50px -10px rgba(0, 0, 0, 0.9);
+}
+.modal .modal-content .modal-body h2 {
+  font-size: 18px;
+}
+.modal .modal-content .modal-body p {
+  color: #777;
+  font-size: 14px;
+}
+.modal .modal-content .modal-body h3 {
+  color: #000;
+  font-size: 22px;
+}
+.modal .modal-content .modal-body .close-btn {
+  color: #000;
+}
+.modal .modal-content .modal-body .promo-img {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+}
+.modal .modal-content .modal-body .promo-img .price {
+  top: 20px;
+  left: 20px;
+  position: absolute;
+  color: #f4f5f6;
+}
+.modal .btn {
+  border-radius: 30px;
+}
+.modal .warp-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  position: relative;
+  background: rgba(62, 100, 255, 0.05);
+  color: #3e64ff;
+  border-radius: 50%;
+}
+.modal .warp-icon span {
+  font-size: 40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.form-control {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+  padding-right: 0;
+}
+.form-control:active,
+.form-control:focus,
+.form-control:hover {
+  border-bottom: 1px solid #000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.amount-container {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.days-btn {
+  border-radius: 30px;
+  border: 1px solid white;
+  background-color: white;
+  width: 110px;
+  height: 40px;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  outline: none;
+  margin-left: 10px;
+  outline: none;
+}
+.active-btn {
+  border: 1px solid #04009a;
+  background-color: #04009a;
+  color: white;
+}
+
+.amount-trigger-btn {
+  border-radius: 30px;
+  border: 1px solid #04009a;
+  background-color: #04009a;
+  width: 125px;
+  height: 24px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  outline: none;
+  margin-left: 10px;
+}
+
+.summary-container {
+  background-color: white;
+  padding: 20px;
+}
+
+.summary-container p {
+  color: #000;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.alert-content {
+  color: #ff6838;
+  font-size: 14px;
+  background: #fff8f5;
+  border: 1px solid #ff6838;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.alert-content-modal {
+  color: #ff6838;
+  font-size: 14px;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.trigger-btn {
+  border-radius: 30px;
+  border: 1px solid #04009a;
+  background-color: #04009a;
+  padding: 10px;
+  width: 380px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+  margin-left: 70px;
+}
+
+.btn {
+  border-radius: 4px;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.btn:active,
+.btn:focus {
+  outline: none;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.close-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 20px;
+}
+.close-btn span {
+  color: #ccc;
+}
+.close-btn:hover span {
+  color: #000;
+}
